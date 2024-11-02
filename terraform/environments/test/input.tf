@@ -26,10 +26,6 @@ variable client_id {
 variable client_secret {
   description = "The clientsecret key."
   type          = string
-}
-
-variable access_key {
-  description = "The clientsecret key."
-  type          = string
+  default     = "8FP8Q~AVpTUs2Kmx3UBMLacgXGH22GaYMI9IHaGV"
 }
 
