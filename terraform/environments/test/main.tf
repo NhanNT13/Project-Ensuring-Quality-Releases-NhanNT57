@@ -10,7 +10,7 @@ terraform {
     storage_account_name = "nhannt57storage01998"
     container_name       = "nhannt57container01998" 
     key                  = "test.terraform.tfvars"
-    access_key           = "iHRYgSAW3tXBBOMTtzCy7CAHy9duBbfDyS+Wnd/zZwSshDV1Seprr7OBL0XMnn8zvCpi0/fyM3/d+ASt4tlMtA=="
+    access_key           = "H9fYeumO4sz6iadNRXZ9CVq5ydt+MFb+AnobYZ53PYWmkf0oabl3dxYvCKWC9WHe7ngrEVLua9kG+AStpSKL6Q=="
   }
 }
 module "resource_group" {
