@@ -1,9 +1,11 @@
 # Resource Group/Location
 variable "location" {
-    type          = string
+    description = "The admin password for the VM"
+    type        = string
 }
 variable "resource_group" {
-    type          = string
+    description = "The admin password for the VM"
+    type        = string
 }
 
 # Resource Network Security Group
@@ -17,5 +19,6 @@ variable "subnet_id" {
     type          = string
 }
 variable "address_prefix_test" {
-    type          = string
+    description = "The address prefix test"
+    default     = "10.5.1.0/24"
 }

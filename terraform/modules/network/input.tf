@@ -4,6 +4,7 @@ variable "location" {
 }
 variable "resource_group" {
     type          = string
+    default     = "Azuredevops"
 }
 
 # Resource VNetwork
@@ -15,5 +16,8 @@ variable "resource_type" {
 }
 variable "virtual_network_name" {}
 variable "address_space" {}
-variable "address_prefix_test" {}
+variable "address_prefix_test" {
+    description = "The address prefix test"
+    default     = "10.5.1.0/24"
+}
 
